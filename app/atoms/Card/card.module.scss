@@ -1,0 +1,19 @@
+.wrapper {
+  border: 1px solid #3333;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: white;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      border: 1px solid red;
+    }
+  }
+
+  .body {
+    margin-top: 12px;
+  }
+}

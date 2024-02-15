@@ -1,0 +1,29 @@
+.wrapper {
+  .above {
+    display: flex;
+    justify-content: space-between;
+
+    .data {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+
+      h6 {
+        color: #d2d1d6;
+      }
+    }
+
+    .separator {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+    }
+  }
+
+  .bottom {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.2rem;
+  }
+}

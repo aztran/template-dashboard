@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  gap: 0.5rem;
+
+  .header {
+    display: flex;
+    justify-content: center;
+
+    h5 {
+      color: #959499;
+    }
+  }
+  h4 {
+    color: #959499;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,48 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 75% 25%;
+
+  .content {
+    padding-top: 2rem;
+    padding-right: 2rem;
+
+    .headerWrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        font-weight: normal;
+        color: #959499;
+      }
+    }
+
+    .search {
+      background: white;
+      padding: 1rem;
+      border-radius: 50%;
+    }
+
+    .dashboardWrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .dashboardWrapper2 {
+      display: grid;
+      grid-template-columns: auto;
+      margin-top: 1rem;
+    }
+  }
+
+  .widget {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

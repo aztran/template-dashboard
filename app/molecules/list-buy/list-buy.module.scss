@@ -1,0 +1,80 @@
+.gridSeparator {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    border-right: 1px solid gray;
+
+    .dateRange {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .shoppingWrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .items {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+
+      .item {
+        display: flex;
+        justify-content: space-between;
+        background: #f7f7f7;
+        border-radius: 5px;
+        padding: 10px;
+
+        gap: 0.3rem;
+        div {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+        }
+      }
+    }
+  }
+
+  .chat {
+    padding-left: 1rem;
+  }
+
+  .formMessage {
+    margin-top: 1rem;
+    border-radius: 10px;
+    background: #f7f7f7;
+    padding: 1rem;
+    width: 100%;
+
+    textarea {
+      background-color: unset;
+      border: unset;
+      width: 100%;
+      resize: none;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .icon {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btnWrapper {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        width: unset;
+      }
+    }
+  }
+}

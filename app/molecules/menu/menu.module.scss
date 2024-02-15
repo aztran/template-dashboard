@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: #f7f6fe;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 30px;
+  padding: 1rem 0;
+
+  .menu_list {
+    display: flex;
+    padding: 0.5rem;
+
+    &.active,
+    &:hover {
+      cursor: pointer;
+      background-color: blue;
+      border-radius: 50px;
+    }
+  }
+}

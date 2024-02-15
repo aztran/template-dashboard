@@ -1,0 +1,26 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 1rem;
+
+  .balance {
+    display: flex;
+    flex-direction: column;
+
+    .totalBalance {
+      margin-top: 1rem;
+      display: flex;
+
+      gap: 0.5rem;
+      text-wrap: wrap;
+
+      h4,
+      h6 {
+        font-weight: normal;
+      }
+    }
+  }
+  .chart {
+    width: 90%;
+  }
+}
