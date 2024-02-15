@@ -82,7 +82,7 @@ const ListBuy = () => {
                             console.log({ idx })
                             const odd = idx % 2 === 1 ? false : true
                             return (
-                                <Message message={msg} right={odd} />
+                                <Message message={msg} right={odd} key={idx} />
                             )
                         })}
 

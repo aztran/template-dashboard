@@ -43,7 +43,7 @@ const Menu = () => {
         <div className={style.wrapper}>
             {menus.map(menu => {
                 return (
-                    <div className='flex-row-center'>
+                    <div className='flex-row-center' key={menu.title}>
                         <div className={`${style.menu_list} ${menu.isActive ? style.active : ''}`}>
                             {menu.icon}
                         </div>
